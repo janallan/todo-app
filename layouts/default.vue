@@ -96,29 +96,9 @@ export default {
       fixed: false,
       items: [
         {
-          title: 'Home',
-          to: '/',
+          title: 'Tasks',
+          to: '/tasks',
         },
-        {
-          title: 'Inspire',
-          to: '/inspire',
-        },
-        //Same with Sub Menu
-        // {
-        //   icon: '/img/icons/settings.svg',
-        //   title: 'Route',
-        //   to: '/route',
-        //   subitems: [
-        //     {
-        //       title: 'Terminal A to B',
-        //       to: '/route/drop-points/terminal-A-to-B',
-        //     },
-        //     {
-        //       title: 'Terminal B to A',
-        //       to: '/route/drop-points/terminal-B-to-A',
-        //     },
-        //   ],
-        // },
       ],
       avatar: {
         url: '/img/icons/avatar.jpg',

@@ -73,7 +73,7 @@ export default {
   watch: {
     token(e) {
       if (e) {
-        location.href = '/inspire'
+        location.href = '/tasks'
       }
     },
   },

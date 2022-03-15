@@ -101,7 +101,7 @@ export default {
             const response = res.data
             this.loading = false
             this.$store.commit('auth/setAuthUser', response.data)
-            location.href = '/inspire'
+            location.href = '/tasks'
           }).catch((err) => {
               this.loading = false
               const response = err.response

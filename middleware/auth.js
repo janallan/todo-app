@@ -5,6 +5,6 @@ export default function({store, redirect, route }){
   }
 
   if(route.path === '/' && store.state.auth.token){
-      return redirect('/inspire')
+      return redirect('/tasks')
   }
 }
